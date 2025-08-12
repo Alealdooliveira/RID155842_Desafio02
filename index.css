@@ -1,0 +1,382 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    overflow-x: hidden;
+     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Montserrat",sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* header */
+header{
+    width: 100%;
+    height: 5em;
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+#title{
+   font-family: "Montserrat",sans-serif;
+   color: #ffff;
+   font-weight: 700;
+   font-size: 2.5rem;
+   padding-left: 10rem;
+   
+   
+
+}
+ #container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    grid-template-rows: repeat(2,auto);
+    gap: 2rem;
+    padding: 0 10% 0 10%;
+    margin-top: 2rem;
+    
+    
+    
+ }
+
+/* imagem principal */
+main{
+    height:25rem;
+    
+}
+
+#imginicial{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 100%),
+    url(./imagens/img-main.jpg) ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: #ffff;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    
+}
+
+.opiniao{
+    font-size: 1rem;
+}
+
+.denominacao{
+    font-size: 2rem;
+}
+
+.autor{
+    font-size: 1rem;
+}
+
+/* post */
+
+section{
+    width: 100%;
+    grid-column: 1;
+    grid-row: 2;
+    
+}
+
+.titlepost{
+    background-color: #02A28F;
+    border-radius: 10px;
+    color:#ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    padding: 0 2em 0 2em;
+    
+}
+
+.titlepost a{
+    color: #ffff;
+    font-size: 1em;
+    font-weight: 300;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.titlepost a:hover{
+  transform: scale(1.1); 
+}
+
+/* cards */
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1.5em;
+    padding-top: 1em;
+}
+
+.card{
+    background-color:#ffff;
+    width:100% ;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card>img{
+    width: 100%;
+    
+}
+
+.card>h2{
+    width: 100%;
+    height: auto;
+    color: #02A28F;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 0.5rem 0 0 1rem;
+}
+
+.card>h3{
+    padding: 0.5rem 0 0 1rem;
+    font-size: 1.3em;
+}
+
+ .card> .autor{
+    padding: 0.5rem 0 0 1rem;
+    color: #616161;
+    font-size: 0.9em;
+
+}
+
+.cardtext{
+     padding: 0.5rem 1rem 0rem 1rem;
+     font-size: 0.9em;
+}
+
+ .date{
+    color: #616161;
+    font-size: 0.9em;
+     padding: 0.5rem 1rem 1rem 1rem;
+}
+
+
+
+
+/* posts */
+
+.postpopular{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+aside{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.titlepostpopular h1{
+    background-color: #02A28F;
+    color: #ffff;
+    width: 100%;
+    height: 2.5em;
+    align-content: center;
+    border-radius: 10px;
+    padding-left: 2rem;
+
+}
+
+.cardpostpopular{
+    display: flex;
+    width: 100%;
+    height: 6em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 10px;
+    padding: 0.5em;
+    transition: transform 0.3s ease;
+}
+
+.cardpostpopular:hover{
+    transform: scale(1.05);
+}
+
+.cardpostpopular h1{
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0.2rem 0 0 1rem;
+}
+
+.postdate{
+    padding: 0.5rem 0 0 1rem;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+/* categoria */
+
+.titlecategory{
+    background-color: #02A28F;
+    border-radius: 10px;
+    color:#ffff;
+    display: flex;
+    align-items: center;
+    height: 3.5em;
+    padding-left: 2rem;
+    
+}
+
+
+.linkscategory {
+    list-style: none;
+    margin: 0;
+}
+
+.linkscategory > li{
+       padding-top: 1em;
+       font-weight: 600;
+}
+
+
+.linkscategory a{
+    text-decoration: none;
+    color: #616161;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.linkscategory .text {
+  white-space: nowrap;
+}
+
+
+.sublinks {
+  display: none;
+  list-style: none;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.linkscategory li:hover .sublinks {
+  display: block;
+}
+
+.sublinks li a {
+  color: #666;
+  font-size: 0.9em;
+  text-decoration: none;
+  display: block;
+  margin-top: 3px;
+}
+
+
+footer{
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:3rem;
+    color: #FFFFFF;
+    margin-top:5rem
+}   
+
+
+@media( max-width: 768px ){
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        padding: 0 2% 0 2%;
+    
+    }
+
+    /* imagem inicial */
+
+    main{   
+        height:70vh;
+        
+        
+    }   
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .opiniao{
+        font-size: 1rem;
+    }
+
+    .denominaçao{
+        font-size: 1.5rem;
+    }
+
+    .autor{
+        font-size: 1rem;
+    }
+
+
+
+
+/* header */
+    header{
+        align-items: center;
+        justify-content: center;
+    }
+
+    #title{
+        font-size: 1.8rem;
+        padding-left: 0;
+    }
+
+    /*post */
+
+    section{
+        margin-top: -1rem;
+    }
+
+    .titlepost{
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        height: 2.8rem ;
+    
+    }
+
+    .titlepost h1{
+        font-size: 1.4em;
+        white-space: nowrap;
+    }
+
+    .titlepost a{
+        font-size: 0.9rem;
+        white-space: nowrap;
+    }
+
+}   
+
