@@ -125,6 +125,7 @@ section{
   transform: scale(1.1); 
 }
 
+
 /* cards */
 
 .cards{
@@ -290,7 +291,15 @@ aside{
   text-decoration: none;
   display: block;
   margin-top: 3px;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
+.sublinks li a:hover{
+    color: rgb(43, 42, 42);
+    transform: scale(1.1);
+}
+
 
 
 footer{
@@ -340,9 +349,7 @@ footer{
         font-size: 1rem;
     }
 
-
-
-
+    
 /* header */
     header{
         align-items: center;
