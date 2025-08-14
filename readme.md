@@ -12,3 +12,7 @@ O objetivo é aplicar e demonstrar as habilidades aprendidas, criando um site **
 - Layout adaptável para desktop, tablet e mobile
 - Estrutura organizada de seções
 - Design focado em boas práticas de HTML e CSS
+
+## 🔗 Visualização
+O projeto está hospedado no **Netlify** e pode ser acessado através do link:  
+[**Acessar Blog Responsivo**] (rid155842-desafio02.netlify.app)
