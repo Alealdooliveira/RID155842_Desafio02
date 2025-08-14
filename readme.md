@@ -14,5 +14,5 @@ O objetivo é aplicar e demonstrar as habilidades aprendidas, criando um site **
 - Design focado em boas práticas de HTML e CSS
 
 ## 🔗 Visualização
-O projeto está hospedado no **Netlify** e pode ser acessado através do link:  
-[**Acessar Blog Responsivo**] (rid155842-desafio02.netlify.app)
+O projeto está hospedado no **Netlify** e pode ser acessado através do link:
+rid155842-desafio02.netlify.app 
