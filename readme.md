@@ -15,4 +15,4 @@ O objetivo é aplicar e demonstrar as habilidades aprendidas, criando um site **
 
 ## 🔗 Visualização
 O projeto está hospedado no **Netlify** e pode ser acessado através do link:
-rid155842-desafio02.netlify.app 
+(https://rid155842-desafio02.netlify.app/)
